@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "action-project-95d6e"
+  }
+  {
+   "predeploy": [
+  "npm --prefix \"%RESOURCE_DIR%\" run lint"
+]
+}
